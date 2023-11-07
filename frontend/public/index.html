@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div id="login-page">
+        <div class="labelInput">
+            <p>Wizard name</p>
+            <input id="username-input">
+        </div>
+        <div class="labelInput">
+            <p>Magic spell</p>
+            <input id="password-input">
+        </div>
+        <button id="register-button"> 
+            Register
+        </button>
+        <button id="signin-button"> 
+            Sign In
+        </button>
+    </div>
+
+    <div id="home-page">
+        <div class="buttonDiv">
+            <button id="play-button">
+                Play
+            </button>
+        </div>
+
+        <div class="buttonDiv">
+            <button id="skill-button">
+                Skill Design
+            </button>
+        </div>
+    </div>
+
+    <div id="waiting-page">
+        <!-- Temporary -->
+        <p> Waiting room </p>
+    </div>
+
+    <canvas id="canvas"></canvas>
+</body>
+<script src="src/setupPages.js"></script>
+<script src="src/http.js"></script>
+<script src="src/setupLoginPage.js"></script>
+
+
+</html>
